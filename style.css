@@ -17,3 +17,9 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
 }
+img {
+    float: left; /* Moves the image to the left */
+    margin: 0 15px 10px 0; /* Adds space around the image */
+    max-width: 40%; /* Ensures images don’t take up too much space */
+    height: auto; /* Keeps the image’s aspect ratio */
+}
