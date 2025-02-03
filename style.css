@@ -16,12 +16,34 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
 }
-<<<<<<< Updated upstream
+
+
+/* ✅ Text Wrapping for Desktop */
+
 img {
     float: left; /* Moves the image to the left */
     margin: 0 15px 10px 0; /* Adds space around the image */
     max-width: 40%; /* Ensures images don’t take up too much space */
     height: auto; /* Keeps the image’s aspect ratio */
+
+}
+
+/* ✅ Hover Effect for Links */
+nav a:hover {
+    color: green; /* Changes color when hovered */
+    text-decoration: underline; /* Underlines link on hover */
+}
+
+/* ✅ Mobile Fix: Removes Floating on Small Screens */
+@media (max-width: 768px) {
+    img {
+        float: none; /* Removes floating on mobile */
+        display: block; /* Centers image */
+        margin: 10px auto; /* Adds spacing */
+        max-width: 80%; /* Ensures image isn't too large */
+    }
+}
+=======
 =======
 nav a:hover {
     color: yellow; /* Changes color when hovered */
@@ -34,5 +56,4 @@ nav a:hover {
         margin: 10px auto; /* Adds spacing */
         max-width: 80%;
     }
->>>>>>> Stashed changes
-}
+
