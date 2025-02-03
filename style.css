@@ -27,7 +27,7 @@ img {
 
 /* ✅ Hover Effect for Links */
 nav a:hover {
-    color: red; /* Changes color when hovered */
+    color: green; /* Changes color when hovered */
     text-decoration: underline; /* Underlines link on hover */
 }
 
