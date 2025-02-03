@@ -16,9 +16,23 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
 }
+<<<<<<< Updated upstream
 img {
     float: left; /* Moves the image to the left */
     margin: 0 15px 10px 0; /* Adds space around the image */
     max-width: 40%; /* Ensures images don’t take up too much space */
     height: auto; /* Keeps the image’s aspect ratio */
+=======
+nav a:hover {
+    color: yellow; /* Changes color when hovered */
+    text-decoration: underline; /* Underlines link on hover */
+}
+@media (max-width: 768px) {
+    img {
+        float: none; /* Disables floating */
+        display: block; /* Centers image */
+        margin: 10px auto; /* Adds spacing */
+        max-width: 80%;
+    }
+>>>>>>> Stashed changes
 }
